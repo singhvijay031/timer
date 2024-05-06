@@ -1,0 +1,35 @@
+.main-container{
+    /* background-color: blue; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+.strt{
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.strt:hover{
+    cursor: pointer;
+}
+.stop{
+    background-color: red;
+    font-weight: bold;
+}
+
+.stop:hover{
+    cursor: pointer;
+}
+
+.reset{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.reset:hover{
+    cursor: pointer;
+    /* text-decoration: solid; */
+}
